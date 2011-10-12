@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFF48C5137DEADD002400D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFF48C4137DEADD002400D3 /* Cocoa.framework */; };
+		9DFF48CF137DEADD002400D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF48CD137DEADD002400D3 /* InfoPlist.strings */; };
+		9DFF48D2137DEADD002400D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF48D1137DEADD002400D3 /* main.m */; };
+		9DFF48D5137DEADD002400D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF48D3137DEADD002400D3 /* Credits.rtf */; };
+		9DFF48D8137DEADD002400D3 /* BuildBotMenuletAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF48D7137DEADD002400D3 /* BuildBotMenuletAppDelegate.m */; };
+		9DFF48DB137DEADD002400D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF48D9137DEADD002400D3 /* MainMenu.xib */; };
+		9DFF48E2137DEADD002400D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFF48C4137DEADD002400D3 /* Cocoa.framework */; };
+		9DFF48EA137DEADD002400D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF48E8137DEADD002400D3 /* InfoPlist.strings */; };
+		9DFF48ED137DEADD002400D3 /* BuildBotMenuletTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF48EC137DEADD002400D3 /* BuildBotMenuletTests.h */; };
+		9DFF48EF137DEADD002400D3 /* BuildBotMenuletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF48EE137DEADD002400D3 /* BuildBotMenuletTests.m */; };
+		9DFF48F9137DED9C002400D3 /* buildbot.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF48F8137DED9C002400D3 /* buildbot.ico */; };
+		9DFF490D137E495B002400D3 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF490C137E495B002400D3 /* RegexKitLite.m */; };
+		9DFF4911137E5685002400D3 /* GreenDotIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF4910137E5685002400D3 /* GreenDotIcon.png */; };
+		9DFF4913137E5720002400D3 /* RedDotIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF4912137E5720002400D3 /* RedDotIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DFF48E3137DEADD002400D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DFF48B7137DEADC002400D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFF48BF137DEADC002400D3;
+			remoteInfo = BuildBotMenulet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DFF48C0137DEADC002400D3 /* BuildBotMenulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildBotMenulet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFF48C4137DEADD002400D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9DFF48C7137DEADD002400D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9DFF48C8137DEADD002400D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9DFF48C9137DEADD002400D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DFF48CC137DEADD002400D3 /* BuildBotMenulet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuildBotMenulet-Info.plist"; sourceTree = "<group>"; };
+		9DFF48CE137DEADD002400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DFF48D0137DEADD002400D3 /* BuildBotMenulet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuildBotMenulet-Prefix.pch"; sourceTree = "<group>"; };
+		9DFF48D1137DEADD002400D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DFF48D4137DEADD002400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9DFF48D6137DEADD002400D3 /* BuildBotMenuletAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildBotMenuletAppDelegate.h; sourceTree = "<group>"; };
+		9DFF48D7137DEADD002400D3 /* BuildBotMenuletAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildBotMenuletAppDelegate.m; sourceTree = "<group>"; };
+		9DFF48DA137DEADD002400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9DFF48E1137DEADD002400D3 /* BuildBotMenuletTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildBotMenuletTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFF48E7137DEADD002400D3 /* BuildBotMenuletTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuildBotMenuletTests-Info.plist"; sourceTree = "<group>"; };
+		9DFF48E9137DEADD002400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DFF48EB137DEADD002400D3 /* BuildBotMenuletTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuildBotMenuletTests-Prefix.pch"; sourceTree = "<group>"; };
+		9DFF48EC137DEADD002400D3 /* BuildBotMenuletTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildBotMenuletTests.h; sourceTree = "<group>"; };
+		9DFF48EE137DEADD002400D3 /* BuildBotMenuletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildBotMenuletTests.m; sourceTree = "<group>"; };
+		9DFF48F8137DED9C002400D3 /* buildbot.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = buildbot.ico; sourceTree = SOURCE_ROOT; };
+		9DFF490B137E495B002400D3 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		9DFF490C137E495B002400D3 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		9DFF4910137E5685002400D3 /* GreenDotIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenDotIcon.png; sourceTree = SOURCE_ROOT; };
+		9DFF4912137E5720002400D3 /* RedDotIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedDotIcon.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFF48BD137DEADC002400D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF48C5137DEADD002400D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFF48DD137DEADD002400D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF48E2137DEADD002400D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFF48B5137DEADC002400D3 = {
+			isa = PBXGroup;
+			children = (
+				9DFF48CA137DEADD002400D3 /* BuildBotMenulet */,
+				9DFF48E5137DEADD002400D3 /* BuildBotMenuletTests */,
+				9DFF48C3137DEADD002400D3 /* Frameworks */,
+				9DFF48C1137DEADC002400D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFF48C1137DEADC002400D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF48C0137DEADC002400D3 /* BuildBotMenulet.app */,
+				9DFF48E1137DEADD002400D3 /* BuildBotMenuletTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFF48C3137DEADD002400D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF48C4137DEADD002400D3 /* Cocoa.framework */,
+				9DFF48C6137DEADD002400D3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DFF48C6137DEADD002400D3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF48C7137DEADD002400D3 /* AppKit.framework */,
+				9DFF48C8137DEADD002400D3 /* CoreData.framework */,
+				9DFF48C9137DEADD002400D3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9DFF48CA137DEADD002400D3 /* BuildBotMenulet */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF48D6137DEADD002400D3 /* BuildBotMenuletAppDelegate.h */,
+				9DFF48D7137DEADD002400D3 /* BuildBotMenuletAppDelegate.m */,
+				9DFF48D9137DEADD002400D3 /* MainMenu.xib */,
+				9DFF48CB137DEADD002400D3 /* Supporting Files */,
+			);
+			path = BuildBotMenulet;
+			sourceTree = "<group>";
+		};
+		9DFF48CB137DEADD002400D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF4912137E5720002400D3 /* RedDotIcon.png */,
+				9DFF4910137E5685002400D3 /* GreenDotIcon.png */,
+				9DFF490B137E495B002400D3 /* RegexKitLite.h */,
+				9DFF490C137E495B002400D3 /* RegexKitLite.m */,
+				9DFF48F8137DED9C002400D3 /* buildbot.ico */,
+				9DFF48CC137DEADD002400D3 /* BuildBotMenulet-Info.plist */,
+				9DFF48CD137DEADD002400D3 /* InfoPlist.strings */,
+				9DFF48D0137DEADD002400D3 /* BuildBotMenulet-Prefix.pch */,
+				9DFF48D1137DEADD002400D3 /* main.m */,
+				9DFF48D3137DEADD002400D3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DFF48E5137DEADD002400D3 /* BuildBotMenuletTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF48EC137DEADD002400D3 /* BuildBotMenuletTests.h */,
+				9DFF48EE137DEADD002400D3 /* BuildBotMenuletTests.m */,
+				9DFF48E6137DEADD002400D3 /* Supporting Files */,
+			);
+			path = BuildBotMenuletTests;
+			sourceTree = "<group>";
+		};
+		9DFF48E6137DEADD002400D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF48E7137DEADD002400D3 /* BuildBotMenuletTests-Info.plist */,
+				9DFF48E8137DEADD002400D3 /* InfoPlist.strings */,
+				9DFF48EB137DEADD002400D3 /* BuildBotMenuletTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFF48BF137DEADC002400D3 /* BuildBotMenulet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFF48F2137DEADD002400D3 /* Build configuration list for PBXNativeTarget "BuildBotMenulet" */;
+			buildPhases = (
+				9DFF48BC137DEADC002400D3 /* Sources */,
+				9DFF48BD137DEADC002400D3 /* Frameworks */,
+				9DFF48BE137DEADC002400D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuildBotMenulet;
+			productName = BuildBotMenulet;
+			productReference = 9DFF48C0137DEADC002400D3 /* BuildBotMenulet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DFF48E0137DEADD002400D3 /* BuildBotMenuletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFF48F5137DEADD002400D3 /* Build configuration list for PBXNativeTarget "BuildBotMenuletTests" */;
+			buildPhases = (
+				9DFF48DC137DEADD002400D3 /* Sources */,
+				9DFF48DD137DEADD002400D3 /* Frameworks */,
+				9DFF48DE137DEADD002400D3 /* Resources */,
+				9DFF48DF137DEADD002400D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFF48E4137DEADD002400D3 /* PBXTargetDependency */,
+			);
+			name = BuildBotMenuletTests;
+			productName = BuildBotMenuletTests;
+			productReference = 9DFF48E1137DEADD002400D3 /* BuildBotMenuletTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFF48B7137DEADC002400D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = BlueKai;
+			};
+			buildConfigurationList = 9DFF48BA137DEADC002400D3 /* Build configuration list for PBXProject "BuildBotMenulet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DFF48B5137DEADC002400D3;
+			productRefGroup = 9DFF48C1137DEADC002400D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFF48BF137DEADC002400D3 /* BuildBotMenulet */,
+				9DFF48E0137DEADD002400D3 /* BuildBotMenuletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFF48BE137DEADC002400D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF48CF137DEADD002400D3 /* InfoPlist.strings in Resources */,
+				9DFF48D5137DEADD002400D3 /* Credits.rtf in Resources */,
+				9DFF48DB137DEADD002400D3 /* MainMenu.xib in Resources */,
+				9DFF48F9137DED9C002400D3 /* buildbot.ico in Resources */,
+				9DFF4911137E5685002400D3 /* GreenDotIcon.png in Resources */,
+				9DFF4913137E5720002400D3 /* RedDotIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFF48DE137DEADD002400D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF48EA137DEADD002400D3 /* InfoPlist.strings in Resources */,
+				9DFF48ED137DEADD002400D3 /* BuildBotMenuletTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DFF48DF137DEADD002400D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFF48BC137DEADC002400D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF48D2137DEADD002400D3 /* main.m in Sources */,
+				9DFF48D8137DEADD002400D3 /* BuildBotMenuletAppDelegate.m in Sources */,
+				9DFF490D137E495B002400D3 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFF48DC137DEADD002400D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFF48EF137DEADD002400D3 /* BuildBotMenuletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DFF48E4137DEADD002400D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DFF48BF137DEADC002400D3 /* BuildBotMenulet */;
+			targetProxy = 9DFF48E3137DEADD002400D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DFF48CD137DEADD002400D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF48CE137DEADD002400D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DFF48D3137DEADD002400D3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF48D4137DEADD002400D3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9DFF48D9137DEADD002400D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF48DA137DEADD002400D3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9DFF48E8137DEADD002400D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF48E9137DEADD002400D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFF48F0137DEADD002400D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DFF48F1137DEADD002400D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DFF48F3137DEADD002400D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuildBotMenulet/BuildBotMenulet-Prefix.pch";
+				INFOPLIST_FILE = "BuildBotMenulet/BuildBotMenulet-Info.plist";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DFF48F4137DEADD002400D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuildBotMenulet/BuildBotMenulet-Prefix.pch";
+				INFOPLIST_FILE = "BuildBotMenulet/BuildBotMenulet-Info.plist";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DFF48F6137DEADD002400D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuildBotMenulet.app/Contents/MacOS/BuildBotMenulet";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuildBotMenuletTests/BuildBotMenuletTests-Prefix.pch";
+				INFOPLIST_FILE = "BuildBotMenuletTests/BuildBotMenuletTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9DFF48F7137DEADD002400D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuildBotMenulet.app/Contents/MacOS/BuildBotMenulet";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuildBotMenuletTests/BuildBotMenuletTests-Prefix.pch";
+				INFOPLIST_FILE = "BuildBotMenuletTests/BuildBotMenuletTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFF48BA137DEADC002400D3 /* Build configuration list for PBXProject "BuildBotMenulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFF48F0137DEADD002400D3 /* Debug */,
+				9DFF48F1137DEADD002400D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFF48F2137DEADD002400D3 /* Build configuration list for PBXNativeTarget "BuildBotMenulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFF48F3137DEADD002400D3 /* Debug */,
+				9DFF48F4137DEADD002400D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DFF48F5137DEADD002400D3 /* Build configuration list for PBXNativeTarget "BuildBotMenuletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFF48F6137DEADD002400D3 /* Debug */,
+				9DFF48F7137DEADD002400D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFF48B7137DEADC002400D3 /* Project object */;
+}
